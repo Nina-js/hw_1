@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nhi's homework</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <div>
+    <h1>Welcome to Sydney Tourist System</h1>
+    <h2>Đăng nhập hệ thống</h2>
+    <div>
+      <label for="Email">Email</label>
+    </div>
+    <input placeholder="Usename" type="text" name="" id="Username" />
+    <div>
+      <label for="Password">Password</label>
+    </div>
+    <input placeholder="Password" type="password" name="" id="Password" /><br />
+    <input class="btn" type="submit" value="Submit" />
+    <h3>Các dịch vụ đồ uống:</h3>
+    <ul type="disc">
+      <li>Coffee</li>
+      <ul>
+        <li>Size</li>
+        <ul>
+          <li>M</li>
+          <li>L</li>
+          <li>Super</li>
+        </ul>
+      </ul>
+      <ul>
+        <li>Ice</li>
+        <li>Sugar</li>
+      </ul>
+    </ul>
+    <ul type="disc">
+      <li>Tea</li>
+      <ul>
+        <li>Size</li>
+        <ul>
+          <li>M</li>
+          <li>L</li>
+          <li>Super</li>
+        </ul>
+      </ul>
+      <ul>
+        <li>Ice</li>
+        <li>Sugar</li>
+      </ul>
+    </ul>
+    <ul type="disc">
+      <li>Coffee</li>
+      <ul>
+        <li>Size</li>
+        <ul>
+          <li>M</li>
+          <li>L</li>
+          <li>Super</li>
+        </ul>
+      </ul>
+      <ul>
+        <li>Ice</li>
+        <li>Sugar</li>
+      </ul>
+
+      <h4>Lưu ý</h4>
+      <ol>
+        <li>Không hoàn vé</li>
+        <li>Cung cấp thông tin chính xác</li>
+        <li>Không mua bán lại vé</li>
+        <br />
+      </ol>
+
+      <i>Thông tin tour:</i>
+      <br />
+      <img
+        src="https://nghiencuuquocte.org/wp-content/uploads/2018/04/15.jpg"
+      />
+      <br />
+      <i>Thông tin di chuyển</i>
+      <p class="date">Ngày đi</p>
+      <br />
+      <div class="date__input">
+        <input class="date__select" type="date" />
+        <br />
+        <input class="date__select" type="datetime-local" />
+        <br />
+      </div>
+      <button class="btn" onclick="viewdate()">Submit</button>
+      <h2 id="demo"></h2>
+    </ul>
+    <p>Cập nhật ảnh Avatar <input type="file" /></p>
+    <label for="satisfaction-level">Đánh giá mức độ hài lòng:</label>
+    <input
+      type="range"
+      id="satisfaction-level"
+      name="satisfaction-level"
+      min="0"
+      max="10"
+    />
+    <p class="date">Ngày về</p>
+    <form>
+      <label for="bday-month">Ngày tháng</label> <br />
+      <input id="bday-month" type="month" name="bday-month" />
+    </form>
+    <form>
+      <label for="appt-time"> Giờ </label>
+      <input id="appt-time" type="time" name="appt-time" />
+    </form>
+    <label for="week">Tuần</label>
+
+    <input
+      type="week"
+      name="week"
+      id="camp-week"
+      min="2023-W18"
+      max="2023-W26"
+      required
+    />
+    <p>Chọn màu quần áo <input type="color" /></p>
+    <label for="pet-select">Phương tiện</label>
+
+    <select name="phương tiện" id="phuongtien-select">
+      <option value="Xe khách">Xe khách</option>
+      <option value="Tàu">Tàu</option>
+      <option value="Limousine">Limousine</option>
+      <option value="Máy bay">Máy bay</option>
+    </select>
+    <br />
+    <input type="submit" />
+    <p>Chọn submit để lựa chọn phương tiện của bạn</p>
+    <body>
+      <label for="username"> Bạn có đồng ý với các điều khoản không? </label>
+      <input type="checkbox" name="" id="username" />
+    </body>
+  </div>
+</html>
